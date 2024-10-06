@@ -21,7 +21,7 @@
 //
 //------------------------------------------
 
-let encodeParam = args.widgetParameter || "noParam";
+let encodeParam = args.widgetParameter || "noparam";
 const decodeParam = encodeParam.toLowerCase().split(" ");
 
 const type = decodeParam[0];
@@ -147,22 +147,16 @@ async function createWidget() {
 		body2 = widget.addText(formatTaf());
 
 		widget.addSpacer();
-	} else if (type === "noParam") {
-		title = stackTop.addText("Fetch Aviation Weather");
-
-		widget.addSpacer(10);
-		widget.addSpacer();
-
-		body = widget.addText("Missing parameter in widget's settings.");
-
-		widget.addSpacer();
 	} else {
 		title = stackTop.addText("Fetch Aviation Weather");
 
 		widget.addSpacer(10);
 		widget.addSpacer();
-
-		body = widget.addText("Wrong weather type in parameter");
+		if (type === "noparam") {
+			body = widget.addText("Parameter missing in widget's settings.");
+		} else {
+			body = widget.addText("Wrong weather type in parameter.");
+		}
 
 		widget.addSpacer();
 	}
