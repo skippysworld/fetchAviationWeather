@@ -47,8 +47,9 @@ type station
 
 ### Options:
 
-Type - `METAR` or `TAF` or `BOTH`
-Station - ICAO code of the station, eg: `KJFK`
+Type - `METAR` or `TAF` or `BOTH`.
+
+Station - ICAO code of the station, eg: `KJFK`.
 
 ### Examples:
 
