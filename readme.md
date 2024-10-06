@@ -14,9 +14,9 @@ The script is currently optimised for following sizes of widgets:
 
 Installing the script via ScriptDude allows automatic updates of the script.
 
-Follow `Setup instructions` if you don't have Scriptable and/or ScripDude installed, otherwise you can Install directly.
-
 [![Download with ScriptDude](https://scriptdu.de/download.svg)](https://scriptdu.de?name=fetchAviationWeather&source=https%3A%2F%2Fraw.githubusercontent.com%2Fskippysworld%2FfetchAviationWeather%2Frefs%2Fheads%2Fmain%2FfetchAviationWeather.js&docs=https%3A%2F%2Fgithub.com%2Fskippysworld%2FfetchAviationWeather)
+
+After clicking on button above, follow `Setup instructions` if you don't have Scriptable and/or ScriptDude installed, otherwise you can `Install` directly.
 
 When setup is done, add a new Scriptable widget to your home screen.
 In widget settings, select a script and pass a [parameter](#parameter) to it.
