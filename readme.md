@@ -30,7 +30,7 @@ Manual installation is possible, but does not allow for automatic updates tracki
 3. Copy / paste the code from [`fetchAviationWeather.js`](https://raw.githubusercontent.com/skippysworld/fetchAviationWeather/refs/heads/main/fetchAviationWeather.js) in this repository and confirm by clicking `Done`.
 4. An `Untitled Script` shows up in Scriptable list. You can rename or use in widget settings as it is.
 5. Add a new Scriptable widget to your home screen.
-6. In widget settings, select a script and pass a [parameter](#parameter) to it.
+6. In widget's settings, select a script and pass a [parameter](#parameter) to it.
 
 ## Parameter
 
