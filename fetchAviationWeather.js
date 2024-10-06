@@ -25,7 +25,7 @@ let encodeParam = args.widgetParameter || "noparam";
 const decodeParam = encodeParam.toLowerCase().split(" ");
 
 const type = decodeParam[0];
-const station = decodeParam[1];
+const station = decodeParam[1] || "nostation";
 const headingFlag = decodeParam[2];
 
 async function fetchData() {
@@ -42,7 +42,7 @@ const metar = () => {
 	} catch {
 		return `An error has occured while fetching the data.
 
-Possible causes includes internet connection issues, wrong ICAO code in parameter or observed weather/forecast is not being issued for selected ICAO code.`;
+Possible causes includes internet connection issues, wrong/missing ICAO code in parameter or observed weather/forecast is not being issued for selected ICAO code.`;
 	}
 };
 const taf = () => {
@@ -51,7 +51,7 @@ const taf = () => {
 	} catch {
 		return `An error has occured while fetching the data.
 
-Possible causes includes internet connection issues, wrong ICAO code in parameter or observed weather/forecast is not being issued for selected ICAO code.`;
+Possible causes includes internet connection issues, wrong/missing ICAO code in parameter or observed weather/forecast is not being issued for selected ICAO code.`;
 	}
 };
 const category = () => {
