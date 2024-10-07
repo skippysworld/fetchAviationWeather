@@ -130,8 +130,7 @@ async function createWidget() {
 		if (
 			config.widgetFamily === "medium" ||
 			config.widgetFamily === "large" ||
-			config.widgetFamily === "extraLarge" ||
-			widget.presentLarge
+			config.widgetFamily === "extraLarge"
 		) {
 			title = stackTop.addText(type.toUpperCase());
 
@@ -156,7 +155,10 @@ async function createWidget() {
 			widget.addSpacer();
 		}
 	} else if (type === "both") {
-		if (config.widgetFamily === "large" || widget.presentLarge) {
+		if (
+			config.widgetFamily === "large" ||
+			config.widgetFamily === "extraLarge"
+		) {
 			title = stackTop.addText("METAR");
 
 			stackTop.addSpacer();
