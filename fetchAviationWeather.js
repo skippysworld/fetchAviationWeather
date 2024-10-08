@@ -13,11 +13,11 @@
 // Options:
 //
 //		type - METAR / TAF / BOTH
-//		station - ICAO ID, eg: "LKPR"
+//		station - ICAO ID, eg: "KJFK"
 //
 // Example:
 //
-//		"metar lkpr", "Taf LKPR"
+//		"metar kjfk", "Taf KJFK"
 //
 //------------------------------------------
 
