@@ -14,6 +14,9 @@ The weather can currently be viewed using following sizes of widgets:
 
 *Please note that although extra large widget is allowed (applicable for iPadOS only), the script is not optimised for it as of now.*
 
+## Widgets preview
+
+![](./preview/widget_s_m.png) ![](./preview/widget_l.png) ![](./preview/widget_a.png)
 
 ## Install
 
