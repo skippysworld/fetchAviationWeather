@@ -6,7 +6,7 @@ The weather can currently be viewed using following sizes of widgets:
 
 |                       | METAR | TAF | BOTH |
 | --------------------- |:-----:|:---:|:----:|
-| Lock screen rectangle |   X   |     |      |
+| Accessory |   X   |     |      |
 | Small                 |   X   |     |      |
 | Medium                |   X   |  X  |      |
 | Large                 |   X   |  X  |  X   |
@@ -16,7 +16,9 @@ The weather can currently be viewed using following sizes of widgets:
 
 ## Widgets preview
 
-![](./preview/widget_s_m.png) ![](./preview/widget_l.png) ![](./preview/widget_a.png)
+| Small / Medium | Large | Accessory |
+|-|-|-|
+|![](./preview/widget_s_m.png)|![](./preview/widget_l.png)|![](./preview/widget_a.png)|
 
 ## Install
 
