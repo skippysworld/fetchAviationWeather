@@ -43,21 +43,21 @@ async function fetchData() {
 const apiData = await fetchData();
 const metar = () => {
 	try {
-		return apiData.features[1].properties.rawOb;
+		return apiData.features[0].properties.rawOb;
 	} catch {
 		return errorMessage.fetchError;
 	}
 };
 const taf = () => {
 	try {
-		return apiData.features[1].properties.rawTaf;
+		return apiData.features[0].properties.rawTaf;
 	} catch {
 		return errorMessage.fetchError;
 	}
 };
 const category = () => {
 	try {
-		return apiData.features[1].properties.fltcat.toUpperCase();
+		return apiData.features[0].properties.fltcat.toUpperCase();
 	} catch {
 		return "";
 	}
